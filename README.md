@@ -6,7 +6,7 @@ This project was bootstrapped with [Create React App](https://github.com/faceboo
 
 ## Sobre a estrutura do projeto
 
-Este projeto consiste em uma API em nodejs com acesso ou mongoDB Atlas (cloud) e um front end feito em react (com hooks) + bibloteca prime React.
+Este projeto consiste em uma API em nodejs com acesso ou mongoDB Atlas (cloud) e um frontend feito em react (com hooks) + bibloteca prime React.
 
 ### Pré-Requisitos
 
