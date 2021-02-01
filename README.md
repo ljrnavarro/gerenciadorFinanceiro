@@ -28,6 +28,9 @@ Este código deve ser aplicado na raiz do projeto, irá criar as imagens e levan
 docker-compose up --build
 ```
 
+Após finalização do composer, acessar a url com localhost:3000
+
+
 Please make sure to update tests as appropriate.
 
 
