@@ -30,8 +30,7 @@ docker-compose up --build
 
 Please make sure to update tests as appropriate.
 
-## License
-[MIT](https://choosealicense.com/licenses/mit/)
+
 
 ## Available Scripts
 
@@ -99,4 +98,7 @@ This section has moved here: https://facebook.github.io/create-react-app/docs/de
 ### `yarn build` fails to minify
 
 This section has moved here: https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
