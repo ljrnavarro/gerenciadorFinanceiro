@@ -1,0 +1,38 @@
+version: '3.4'
+services:
+    backend:
+        env_file:
+            - ./back/.env
+        build:
+            dockerfile: ./back/Dockerfile
+            context: ./
+        image: backend
+        environment: 
+            NODE_ENV: production
+            db: ${DB_CONNECTION}
+        networks: 
+            - app-network
+        ports:
+        - "3001:3001"
+        
+    frondtend:
+       build:
+            dockerfile: ./client/Dockerfile
+            context: ./
+       image: frontend 
+       stdin_open: true
+       environment:
+            NODE_ENV: production
+       networks:
+        - app-network
+       depends_on:
+        - backend
+       links:
+        - backend
+       ports:
+        - "3000:3000"
+
+networks:
+    app-network:
+        driver: bridge
+       

@@ -1,0 +1,39 @@
+
+.Main .p-calendar,.Main .p-datepicker,.Main .p-monthpicker
+{
+  font-size: 1.0em;
+  margin-bottom: 30px;
+
+}
+
+.Main .p-calendar.p-calendar-w-btn .p-inputtext {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+  border-right: 0 none;
+  font-size: 1em;
+  width: 220px;
+}
+
+.Main .p-datepicker .p-datepicker-title select {
+  font-size: 1em;
+  margin: .125em 0;
+  vertical-align: middle;
+}
+
+.Main .p-dialog .p-dialog-content {
+  background-color: transparent;
+  color: white;
+  border: 0px solid #c8c8c8;
+  padding: 1em;
+  overflow: hidden;
+}
+
+.Main .p-dialog {
+  padding: 0;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.0);
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.0);
+}
+
+
+
