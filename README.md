@@ -1,7 +1,37 @@
-# gerenciadorFinanceiro
+# Gerenciador Financeiro
+
 BackEnd em Node , FrontEnd em React , MongoDB Cloud, Projeto Dockerizado com docker composer
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+
+## Sobre a estrutura do projeto
+
+Este projeto consiste em uma API em nodejs com acesso ou mongoDB Atlas (cloud) e um front end feito em react (com hooks) + bibloteca prime React.
+
+### Pré-Requisitos
+
+1. Caso queira usar via Docker:
+  *  [Windows](https://docs.docker.com/windows/started)
+  *  [OS X](https://docs.docker.com/mac/started/)
+  *  [Linux](https://docs.docker.com/linux/started/) 
+
+2. Caso queira usar pelo seu editor de códigod
+  * [node] - Versão 14.0+
+
+3. No diretório raiz existe um arquivo .env.bkp. com os dados de conexão do mongo DB Atlas apenas leitura, apague o trecho ".bkp" do arquivo antes de rodar o docker.
+
+  
+## Subindo a aplicação via Docker usando docker compose
+Este código deve ser aplicado na raiz do projeto, irá criar as imagens e levantar os containers.
+
+```
+docker-compose up --build
+```
+
+Please make sure to update tests as appropriate.
+
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
 
 ## Available Scripts
 
